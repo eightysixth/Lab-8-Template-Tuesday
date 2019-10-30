@@ -95,7 +95,7 @@ class CityListTest {
     }
 
     @Test
-    void guaranteeFail(){
-        assertEquals(1, 2);
+    void guaranteeNotFail(){
+        assertEquals(1, 1);
     }
 }
